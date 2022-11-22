@@ -4,33 +4,23 @@
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-function devolverString(str) {
-    // "Return" la string provista: str
-    // Tu código:
-  }
+function devolverString(str) { return str }
   
-  function suma(x, y) {
-    // "x" e "y" son números
-    // Suma "x" e "y" juntos y devuelve el valor
-    // Tu código:
-  }
+  function suma(x, y) { return x+y }
   
-  function resta(x, y) {
-    // Resta "y" de "x" y devuelve el valor
-    // Tu código:
-  }
+  function resta(x, y) { return x - y }
   
-  function multiplica(x, y) {
+  function multiplica(x, y) { var multiplica = x * y; return multiplica; 
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
   }
   
-  function divide(x, y) {
+  function divide(x, y) { return x/y
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
   }
   
-  function sonIguales(x, y) {
+  function sonIguales(x, y) { return x===y
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
@@ -40,6 +30,7 @@ function devolverString(str) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
+  
   }
   
   function menosQueNoventa(num) {
